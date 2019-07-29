@@ -6,34 +6,42 @@ function myFunction() {
 
     if(name1.length == name2.length && name1.length == name3.length)
     {
-        document.getElementById("demo").innerHTML = name1 + ', ' + name2 + ', and '+ name3 + ' are the same length.';
+//      document.getElementById("demo").innerHTML = name1 + ', ' + name2 + ', and '+ name3 + ' are the same length.';
+        console.log(name1 + ', ' + name2 + ', and ' + name3 + ' are the same length.');
     }
     else if(name1.length > name2.length && name1.length > name3.length)
     {
-        document.getElementById("demo").innerHTML = name1 + ' is the longest of the three names.';
+//      document.getElementById("demo").innerHTML = name1 + ' is the longest of the three names.';
+        console.log(name1 + ' is the longest of the three names.');
     }
     else if(name2.length > name1.length && name2.length > name3.length)
     {
-      document.getElementById("demo").innerHTML = name2 + ' is the longest of the three names.';
+//      document.getElementById("demo").innerHTML = name2 + ' is the longest of the three names.';
+        console.log(name2 + ' is the longest of the three names.');
     }
     else if(name3.length > name1.length && name3.length > name2.length)
     {
-      document.getElementById("demo").innerHTML = name3 + ' is the longest of the three names.';
+//       document.getElementById("demo").innerHTML = name3 + ' is the longest of the three names.';
+        console.log(name3 + ' is the longest of the three names.');
     }
     else if(name1.length == name2.length && name1.length != name3.length)
     {
-      document.getElementById("demo").innerHTML = 'There is a tie between ' + name1 + ' and ' + name2;
+//       document.getElementById("demo").innerHTML = 'There is a tie between ' + name1 + ' and ' + name2;
+        console.log('There is a tie between ' + name1 + ' and ' + name2);
     }
     else if(name1.length == name3.length && name1.length != name2.length)
     {
-      document.getElementById("demo").innerHTML = 'There is a tie between ' + name1 + ' and ' + name3;
+//       document.getElementById("demo").innerHTML = 'There is a tie between ' + name1 + ' and ' + name3;
+        console.log('There is a tie between ' + name1 + ' and ' + name3);
     }
     else if(name2.length == name3.length && name2.length != name1.length)
     {
-      document.getElementById("demo").innerHTML = 'There is a tie between ' + name2 + ' and ' + name3;
+//       document.getElementById("demo").innerHTML = 'There is a tie between ' + name2 + ' and ' + name3;
+        console.log('There is a tie between ' + name2 + ' and ' + name3);
     }
     else if(name3.length == name1.length && name3.length != name2.length)
     {
-      document.getElementById("demo").innerHTML = 'There is a tie between ' + name1 + ' and ' + name3;
+//       document.getElementById("demo").innerHTML = 'There is a tie between ' + name1 + ' and ' + name3;
+        console.log('There is a tie between ' + name1 + ' and ' + name3);
     }
 }
